@@ -32,9 +32,10 @@ public class EjemploObjetoAtributo {
     // tambien se puede asi
     Alumno alum3=new Alumno(nome, nota, new Direccion(eMail, telefono));
     alum3.amosar();
-    
-    
-    
+   
+        System.out.println("****DATOS****"); 
+        System.out.println("Nome: "+alum2.getNome()+" Nota: "+alum2.getNota());
+        System.out.println("Email: "+alum2.getDire().getEmail()+" Telefono: "+alum2.getDire().getTelefono());
     }
     
 }
