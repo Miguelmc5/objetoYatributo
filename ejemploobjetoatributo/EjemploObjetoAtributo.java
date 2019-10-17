@@ -29,6 +29,9 @@ public class EjemploObjetoAtributo {
     Direccion d=new Direccion(eMail, telefono);
     Alumno alum2=new Alumno(nome, nota, d);
         alum2.amosar();
+    // tambien se puede asi
+    Alumno alum3=new Alumno(nome, nota, new Direccion(eMail, telefono));
+    alum3.amosar();
     
     
     
